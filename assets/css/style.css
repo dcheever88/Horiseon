@@ -73,6 +73,7 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* end hero styles */
 
 .float-left {
     float: left;
@@ -160,12 +161,14 @@ p {
     header h1 {
         text-align: center;
         width: 100%;
+        justify-content: center;
     }
 
     header nav ul {
         width: 100%;
         justify-content: center;
     }
+
 
 }
 
