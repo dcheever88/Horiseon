@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* apply styles to header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +25,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +33,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -49,6 +50,8 @@ a {
 p {
     font-size: 16px;
 }
+
+/* apply styles to hero */
 
 .hero {
     height: 800px;
@@ -188,6 +191,7 @@ p {
     font-size: 36px;
 }
 
+/* apply styles to footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -197,4 +201,30 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width 980px) {
+    /*this will be applied to any screen smaller than 980px */
+    header {
+        padding-bottom: 0;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width 768px) {
+    /* this will be applied to any screen between 768 and 575px */
+    section {
+
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    /* this will be applied on any screen smaller than 575px */
 }
