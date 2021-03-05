@@ -14,23 +14,23 @@ body {
 }
 
 /* apply styles to header */
-.header {
+header {
     padding: 20px;
     font-family: var(--primary-font-family);
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -38,11 +38,11 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -83,6 +83,24 @@ p {
     margin-left: 20px;
 }
 
+.content-text {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: var(--secondary-font-family);
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content-text img {
+    max-height: 200px;
+}
+
+.content-text h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -108,26 +126,6 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.content-text {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: var(--secondary-font-family);
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content-text img {
-    max-height: 200px;
-}
-
-
-
-.content-text h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 
