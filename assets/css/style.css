@@ -19,6 +19,9 @@ header {
     font-family: var(--primary-font-family);
     background-color: #2a607c;
     color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -35,11 +38,15 @@ header nav {
     margin-right: 20px;
     float: right;
     font-family: var(--secondary-font-family);
-    font-size: 20px;
+    font-size: 22px;
 }
 
 header nav ul {
-    list-style-type: none;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header nav ul li {
@@ -142,20 +149,28 @@ p {
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width 980px) {
+@media screen and (max-width: 980px) {
     /*this will be applied to any screen smaller than 980px */
     header {
         padding-bottom: 0;
         position: relative;
+        justify-content: center;
     }
 
     header h1 {
+        text-align: center;
         width: 100%;
     }
+
+    header nav ul {
+        width: 100%;
+        justify-content: center;
+    }
+
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width 768px) {
+@media screen and (max-width: 768px) {
     /* this will be applied to any screen between 768 and 575px */
     section {
 
