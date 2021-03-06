@@ -115,7 +115,8 @@ p {
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
     font-family: var(--secondary-font-family);
     background-color: #2589bd;
 }
@@ -152,6 +153,16 @@ p {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
     /*this will be applied to any screen smaller than 980px */
+    
+    .hero {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 10px;
+        background-image: url("../images/digital-marketing-meeting.jpg");
+        background-size: cover;
+        background-position: center;
+    }
     header {
         padding-bottom: 0;
         position: relative;
@@ -168,16 +179,19 @@ p {
         width: 100%;
         justify-content: center;
     }
-
-
+ 
+    .benefit-box img {
+        display: block;
+        margin: 10px auto;
+        max-width: 100px;
+        height: 90px;
+    }
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
     /* this will be applied to any screen between 768 and 575px */
-    section {
-
-    }
+  
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
