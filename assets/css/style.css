@@ -1,3 +1,4 @@
+/* site styles */
 :root {
     --primary-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     --secondary-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -12,8 +13,9 @@
 body {
     background-color: #d9dcd6;
 }
+/* end site styles */
 
-/* apply styles to header */
+/* header styles */
 header {
     padding: 20px;
     font-family: var(--primary-font-family);
@@ -53,6 +55,9 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* end header styles */
+
+/* text styles */
 
 a {
     color: #ffffff;
@@ -62,8 +67,9 @@ a {
 p {
     font-size: 16px;
 }
+/* end text styles */
 
-/* apply styles to hero */
+/* hero styles */
 
 .hero {
     height: 800px;
@@ -74,6 +80,8 @@ p {
     background-position: center;
 }
 /* end hero styles */
+
+/* content styles */
 
 .float-left {
     float: left;
@@ -108,7 +116,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* end content styles */
 
+/* benefits styles */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -136,9 +146,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* end benefit styles */
 
-
-/* apply styles to footer */
+/* footer styles */
 .footer {
     padding: 30px;
     clear: both;
@@ -149,6 +159,7 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* end footer styles */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
